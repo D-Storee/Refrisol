@@ -758,10 +758,13 @@ body {
 
     .imagen-galeria img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: 160px; /* Limita la altura */
+      object-fit: cover; /* Recorta sin deformar */
+      border-radius: 10px;
+      border: 2px solid #38bdf8;
       transition: transform 0.3s ease;
     }
+
 
     .imagen-galeria:hover img {
       transform: scale(1.05);
