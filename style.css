@@ -477,9 +477,9 @@ body {
 }
 
 .fila img {
-  width: 450px;
-  height: 450px;
-  max-width: 550px;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
 }
